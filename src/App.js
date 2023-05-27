@@ -34,7 +34,7 @@ function App() {
     measurementId: "G-XCB47GL663"
   };
 
-  const app = initializeApp(secondaryFirebaseConfig);
+  // const app = initializeApp(secondaryFirebaseConfig);
 
   return (
     <div className={"main"}>
