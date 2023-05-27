@@ -54,21 +54,13 @@ export default function Home() {
             <div className="home">
                 <div className="home_heading">Standalone Poses</div>
                 <div className="card_container">
-                    {poses.data?.slice(6).map((pose) => (
+                    {poses.data?.map((pose) => (
                         <Card title={pose.name} onClick={() => navigate(`pose?pid=${pose.NO_ID_FIELD}`)} path={pose.image_url} key={pose.NO_ID_FIELD}/>
                     ))}
                 </div>
 
                 <br/><br/>
                 <hr/>
-                {/*<br/><br/>
-
-                <div className="home_heading">Pose Flows</div>
-                <div className="card_container">
-                    <Card title="Sample 1" onClick={() => poses2.data[0].poses?.map((p) => (console.log(p)))} path="poses/health-thumb1621432876.jpg" />
-                    <Card title="Sample 2" onClick={() => console.log(poses2.data[0].poses)} path="poses/health-thumb1621432876.jpg" />
-                    <Card title="Sample 3" onClick={() => console.log("click")} path="poses/health-thumb1621432876.jpg" />
-                    </div>*/}
             </div>
         </Suspense>
     );

@@ -1,3 +1,7 @@
+<!-- changes to be done -->
+## 1. NaN line correction from leaderboard. LineNo : 45
+## 2. correction of database entry for Nan
+
 
 ## How To Run
 

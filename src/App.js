@@ -1,3 +1,6 @@
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
 import { AuthCheck, FirebaseAppProvider } from "reactfire";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.scss";
@@ -20,6 +23,18 @@ function App() {
     appId: "1:348302775227:web:b61289fc3dcbc34fb7ea9e",
     measurementId: "G-56RXXVY8RY"
   };
+
+  const secondaryFirebaseConfig = {
+    apiKey: "AIzaSyCq6AimKPdfDkgZ1O48fZsux_Aplovb96I",
+    authDomain: "yogarefine-ba4a8.firebaseapp.com",
+    projectId: "yogarefine-ba4a8",
+    storageBucket: "yogarefine-ba4a8.appspot.com",
+    messagingSenderId: "666397035554",
+    appId: "1:666397035554:web:8f636ea89d293a57b40e7b",
+    measurementId: "G-XCB47GL663"
+  };
+
+  const app = initializeApp(secondaryFirebaseConfig);
 
   return (
     <div className={"main"}>
