@@ -42,7 +42,7 @@ export default function Leaderboard() {
     return (
         <div className="leaderboard">
             {console.log(board)}
-            {board.filter(function(item){return (item.name!="ADITYA GANTI 18BCE1292" && !isNaN(item.score))}).map((row, i) => 
+            {board.filter(function(item){return (item.name!="ADITYA GANTI 18BCE1292")}).map((row, i) => 
                 <div className={"row"} key={i}>
                     <div className={"rank"}>
                         <span>{i+1}.</span>
