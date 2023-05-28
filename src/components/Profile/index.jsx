@@ -21,7 +21,7 @@ import {
     useEffect(() => {
       let total = 0;
       docs.data?.forEach((doc) => {
-        total += (doc.score*doc.level);
+        total += isNaN(doc.score)?0:(doc.score*doc.level);
       });
       setScore(total);
     }, [docs.data]);

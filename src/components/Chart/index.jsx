@@ -16,10 +16,15 @@ export default function Chart() {
     useEffect(() => {
         const _docs = [];
         const _poses = {};
+
+        // console.log("printing docs")
+        // console.log(docs.data);
         docs.data?.forEach((doc) => {
-            _docs.push({ pid: doc.id, score: doc.score });
+            _docs.push({ pid: doc.id, score: isNaN(doc.score)?0 :doc.score});
         });
 
+        // console.log("printing pdocs")
+        // console.log(pdocs.data)
         pdocs.data?.forEach((doc) => {
             _poses[doc.NO_ID_FIELD] = doc.name;
         });
