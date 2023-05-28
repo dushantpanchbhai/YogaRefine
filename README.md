@@ -1,8 +1,4 @@
-<!-- changes to be done -->
-## 1. NaN line correction from leaderboard. LineNo : 45
-## 2. correction of database entry for Nan
-
-
+## asdkfmasdk
 ## How To Run
 
 ##### 1. Clone/Extract the repository
