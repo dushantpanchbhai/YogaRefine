@@ -8,12 +8,10 @@ import withReactContent from "sweetalert2-react-content";
 
 export default function Home() {
     const poseRef = useFirestore().collection("poses");
-    
     const poseRef2 = useFirestore().collection("poseflows");
-
     const userRef = useFirestore().collection("users");
-    const { data:user } = useUser();
 
+    const { data:user } = useUser();
     useEffect(() => {
         userRef.doc(user.uid).set({
             name: user.displayName,
