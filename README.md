@@ -1,5 +1,4 @@
-## asdkfmasdk
-## How To Run
+### How To Run
 
 ##### 1. Clone/Extract the repository
 ##### 2. Open command prompt & set the directory
