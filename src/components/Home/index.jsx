@@ -24,7 +24,7 @@ export default function Home() {
         title: (
             <img
               src="/logo_small.png"
-              alt="Yogasaan"
+              alt="Yogarefine"
               style={{ width: 64, height: 64 }}
             />
           ),
@@ -32,7 +32,7 @@ export default function Home() {
             <p style={{ fontFamily: "Rubik, sans-serif", fontWeight: 300 }}>
             Hey, {user.displayName}, <br />
             <br />
-            Welcome to <b>Yogasaan</b>, Yoga made Asaan (easy :)) Practicing yoga
+            Welcome to <b>Yogarefine</b>, Yoga made easy :) Practicing yoga
             from home was never easier!
             </p>
         ),

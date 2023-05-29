@@ -13,28 +13,16 @@ import Profile from "./components/Profile";
 import Stats from "./components/Stats";
 
 function App() {
-
+  
   const firebaseConfig = {
-    apiKey: "AIzaSyAqkTF31Q9PtrcFqhWmw50XII6E-Xg4ZfI",
-    authDomain: "yogasaan-d1b36.firebaseapp.com",
-    projectId: "yogasaan-d1b36",
-    storageBucket: "yogasaan-d1b36.appspot.com",
-    messagingSenderId: "348302775227",
-    appId: "1:348302775227:web:b61289fc3dcbc34fb7ea9e",
-    measurementId: "G-56RXXVY8RY"
+    apiKey: "AIzaSyBtApKLNL1W4RKF_MKxs0poOvuDtWl-qNk",
+    authDomain: "yogarefine-85b64.firebaseapp.com",
+    projectId: "yogarefine-85b64",
+    storageBucket: "yogarefine-85b64.appspot.com",
+    messagingSenderId: "718190495063",
+    appId: "1:718190495063:web:79f8542c664d7403596a12",
+    measurementId: "G-0C54HEC4CL"
   };
-
-  const secondaryFirebaseConfig = {
-    apiKey: "AIzaSyCq6AimKPdfDkgZ1O48fZsux_Aplovb96I",
-    authDomain: "yogarefine-ba4a8.firebaseapp.com",
-    projectId: "yogarefine-ba4a8",
-    storageBucket: "yogarefine-ba4a8.appspot.com",
-    messagingSenderId: "666397035554",
-    appId: "1:666397035554:web:8f636ea89d293a57b40e7b",
-    measurementId: "G-XCB47GL663"
-  };
-
-  // const app = initializeApp(secondaryFirebaseConfig);
 
   return (
     <div className={"main"}>
