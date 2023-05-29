@@ -40,8 +40,8 @@ export default function Header() {
             </Link>
             <div className='header_links'>
                 <IconLink icon={<IconHome />} to="/" name="Home" />
-                <IconLink icon={<IconStats />} to="/stats" name="Analytics" />
-                <IconLink icon={<IconProfile />} to="/profile" name="Profile" />
+                <IconLink icon={<IconStats />} to="/stats" name="Analytics2" />
+                <IconLink icon={<IconProfile />} to="/profile" name="Profile2" />
             </div>
         </div>
     );
